@@ -10,19 +10,19 @@ A description of the features contained in the original data can be found in the
 * tBodyAccJerkMag
 * tBodyGyroMag
 * tBodyGyroJerkMag
-* fBodyAcc-XYZ
-* fBodyAccJerk-XYZ
-* fBodyGyro-XYZ
-* fBodyAccMag
-* fBodyAccJerkMag
-* fBodyGyroMag
-* fBodyGyroJerkMag
+* fBodyAcc-XYZ(*)
+* fBodyAccJerk-XYZ(*)
+* fBodyGyro-XYZ(*)
+* fBodyAccMag(*)
+* fBodyAccJerkMag(*)
+* fBodyGyroMag(*)
+* fBodyGyroJerkMag(*)
 
 For each feature, the following variables are contained:
 
 * mean(): Mean value
 * std(): Standard deviation
-* meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+* meanFreq(): Weighted average of the frequency components to obtain a mean frequency (only calculated for variables with *)
 
 The mean of each variable was calculated for each of 30 subjects and 6 activities. The activities for which measurements were collected are:
 
