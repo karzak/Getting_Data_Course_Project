@@ -20,9 +20,9 @@ A description of the features contained in the original data can be found in the
 
 For each feature, the following variables are contained:
 
-mean(): Mean value
-std(): Standard deviation
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+* mean(): Mean value
+* std(): Standard deviation
+* meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
 The mean of each variable was calculated for each of 30 subjects and 6 activities. The activities for which measurements were collected are:
 
